@@ -1,0 +1,29 @@
+name: habit_tracker
+description: A simple university project Habit Tracker built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Run: flutter pub get
+# Then: flutter create .  (if you need the Android/iOS platform folders)
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.3
+  hive_flutter: ^1.1.0
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+  fl_chart: ^1.2.0
+  flutter_local_notifications: ^22.3.1
+  timezone: ^0.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
